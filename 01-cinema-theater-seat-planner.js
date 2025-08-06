@@ -37,10 +37,9 @@ console.log("\n");
 
 // Problem 02:
 
-const totalRows2 = 8;
 let premiumSeatPrice = 0;
 let normalSeatPrice = 0;
-for (let j = 1; j <= totalRows2; j++) {
+for (let j = 1; j <= totalRows; j++) {
     if (j % 3 === 0 || j % 5 === 0) {
         premiumSeatPrice = premiumSeatPrice + 800;
     }
