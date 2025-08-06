@@ -1,6 +1,6 @@
 // Problem 01:
 // =============
-// A seat planner needs to be created for a new cinema theater. The seats in this movie cinema are designed in such a way that if the seat number is divisible by 3 or 5 without any remainder, it will be considered a 'premium' seat. That is, if the seat number is 1, it will be a normal seat, and if the seat number is 3/5, it will be a premium seat.
+// A seat planner needs to be created for a new cinema theatre. The seats in this movie cinema are designed in such a way that if the seat number is divisible by 3 or 5 without any remainder, it will be considered a 'premium' seat. That is, if the seat number is 1, it will be a normal seat, and if the seat number is 3/5, it will be a premium seat.
 
 // Your task is to create a program that will take the total number of seats (totalRows) and print whether each seat is a 'Normal Row' or a 'Premium Row'.
 
