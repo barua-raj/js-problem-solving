@@ -34,19 +34,17 @@ for (let i = 1; i <= totalRows; i++) {
 
 console.log("\n");
 
-
 // Problem 02:
 
-let premiumSeatPrice = 0;
-let normalSeatPrice = 0;
+let premiumPrice = 0;
+let normalPrice = 0;
 for (let j = 1; j <= totalRows; j++) {
     if (j % 3 === 0 || j % 5 === 0) {
-        premiumSeatPrice = premiumSeatPrice + 800;
+        premiumPrice = premiumPrice + 800;
     }
     else {
-        normalSeatPrice = normalSeatPrice + 500;
+        normalPrice = normalPrice + 500;
     }
 }
-const totalPrice = premiumSeatPrice + normalSeatPrice;
+const totalPrice = premiumPrice + normalPrice;
 console.log(totalPrice);
-
